@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
 :root {
   --dark-background-color: #1f2937;
   
@@ -7,6 +9,9 @@
 
   --hero-secondary-text-size: 18px;
   --hero-secondary-text-color: #e5e7eb;
+
+  --header-link-text-size: 18px;
+  --header-link-text-color: #e5e7eb;
 
   --header-logo-text-size: 24px;
   --header-logo-text-color: #f9faf8;
@@ -29,7 +34,55 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;;
+}
+
 .container {
   max-width: 1024px;
   margin: 0 auto;
+
+}
+
+.pageHeader .container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pageHeader {
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-background-color);
+  min-height: 64px;
+}
+
+.headerLogo__link {
+  color: var(--header-logo-text-color);
+  font-size: var(--header-logo-text-size);
+  text-decoration: none;
+}
+
+.headerNav__listOfLinks {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.headerNav__listOfLinks li:first-child .headerNav__link {
+  margin-left: 0;
+}
+
+.headerNav__link {
+  display: block;
+  margin-left: 24px;
+  color: var(--header-link-text-color);
+  font-size: var(--header-link-text-size);
+  text-decoration: none;
 }
