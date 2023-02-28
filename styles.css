@@ -206,3 +206,32 @@ body {
   text-align: right;
   margin-right: 64px;
 }
+
+.callToAction {
+  padding: 64px 0;
+}
+
+.callToAction__banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--call-to-action-bc);
+  border-radius: 4px;
+  padding: 32px 96px;
+}
+
+.callToAction__bannerButton .btn {
+  border: 2px solid white;
+}
+
+.callToAction__bannerText p {
+  color: var(--hero-main-text-color);
+  font-size: 24px;
+  margin: 12px 0;
+}
+
+.callToAction__bannerText p:first-child {
+  font-weight: 900;
+  font-size: 32px;
+}
