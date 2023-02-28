@@ -67,6 +67,10 @@ body {
   text-decoration: none;
 }
 
+.headerNav__link:hover, .headerLogo__link:hover  {
+  background-color: violet;
+}
+
 .headerNav__listOfLinks {
   display: flex;
   flex-direction: row;
