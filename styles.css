@@ -1,0 +1,35 @@
+:root {
+  --dark-background-color: #1f2937;
+  
+  --hero-main-text-size: 48px;
+  --hero-main-text-font-weight: 900;
+  --hero-main-text-color: #f9faf8;
+
+  --hero-secondary-text-size: 18px;
+  --hero-secondary-text-color: #e5e7eb;
+
+  --header-logo-text-size: 24px;
+  --header-logo-text-color: #f9faf8;
+
+  --button-color: #3882f6;
+  --call-to-action-bc: #3882f6;
+
+  --information-header-text-size: 36px;
+  --information-header-text-font-weight: 900;
+  --information-header-text-color: #1f2937;
+
+  --quote-section-bc: #e5e7eb;
+  --quote-text-size: 36px;
+  --quote-text-font-weight: 300;
+  --quote-text-font-style: italic;
+  --quote-text-color: #1f2937;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
