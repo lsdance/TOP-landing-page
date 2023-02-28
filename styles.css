@@ -86,3 +86,15 @@ body {
   font-size: var(--header-link-text-size);
   text-decoration: none;
 }
+
+.pageFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-background-color);
+  height: 64px;
+}
+
+.pageFooter p {
+  color: #fff;
+}
